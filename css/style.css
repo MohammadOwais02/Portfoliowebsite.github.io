@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    scroll-behavior: smooth;
+}
+body{
+    background: #213a42;
+}
+html{
+  
+  overflow-x: hidden;
+}
+a {
+    font: 1em poppins;
+}
+.nav-item a{
+    color: #fff;
+}
+
+.nav-item a:hover {
+    text-decoration: underline 2px lightseagreen;
+    color: #fff;
+    transition-delay: 2s;
+    transition: ease-in;
+}
+.header1{
+    position: fixed;
+}
+
+
+.btn:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid;
+}
+.btn{
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+}
+
+nav {
+    border-bottom: 0.1px solid #686868;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 2vw;
+    padding-left: 90px;
+}
+.navbar-brand span{
+    color: lightseagreen;
+    padding-left: 0px;
+
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+
+
+.hero1{
+    width: 100%;
+    display: flex;
+    top: 0%;
+    left: 0%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.child1{
+    width: 55%;
+    padding: 90px 100px;
+    color: #fff;
+}
+.child1 span{
+color: lightseagreen;
+}
+.child2{
+ width: 45%;
+}
+.child2 img{
+   
+}
+h1{
+    font-size: 5vw;
+}
+h3{
+    font-size: 2vw;
+}
+p{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 1.1vw;
+}
+.btn2{
+    padding: 10px 10px;
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+    color: #fff;
+    border-radius: 7px;
+}
+.btn2:hover{
+    background: transparent;
+}
+.content1{
+    width: 100%;
+    display: flex;
+    margin-top: 200px;
+}
+.childs1{
+    width: 50%;
+}
+.childs2{
+    width:50% ;
+    color: #fff;
+}
+.childs2 h1{
+    font-size: 3vw;
+    text-align: center;
+    text-decoration: underline;
+}
+.childs1 img{
+    padding-left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media querries */
+
+
+
